@@ -6,10 +6,21 @@ body {
 }
 
 header {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
-  margin: 0 0px;
+  margin-bottom: 20px; /* 下の余白を追加 */
+  padding: 10px; /* 左右の余白を追加 */
+  background-color: #f2f2f2; /* 背景色を追加 */
+}
+
+header nav {
+  margin: 0; /* 左右の余白を削除 */
+  padding: 0; /* 上下の余白を削除 */
+  background-color: #fff; /* 背景色を追加 */
+}
+
+header h1 {
+  margin: 0; /* 上下の余白を削除 */
+  padding: 10px; /* 左右の余白を追加 */
+  font-size: 36px; /* フォントサイズを指定 */
 }
 
 h1 {

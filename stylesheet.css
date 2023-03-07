@@ -16,10 +16,10 @@ header nav {
   padding: 0;
   color: #0f0f0f;
   background-color: #fff;
-
 }
 
 header h1 {
+  color: #0f0f0f;
   margin: 0;
   padding: 10px;
   font-size: 36px;

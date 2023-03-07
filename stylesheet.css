@@ -42,12 +42,23 @@ body {
     margin-bottom: 20px;
   }
 
-  img {
+  .image-container {
+    position: relative;
+  }
+  
+  .image-container img {
     width: 200px;
     height: auto;
     margin-right: 10px;
     margin-bottom: 10px;
     float: left;
+  }
+  
+  .image-container p {
+    position: absolute;
+    top: 0;
+    left: 220px;
+    margin: 0;
   }
 
   p {
